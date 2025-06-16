@@ -4,16 +4,13 @@ body {
   padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #343A40;
-  /* CHANGED: Dark Gray for readable body text */
   background-color: #F4F4F9;
-  /* ADDED: A very light gray background for the whole page */
 }
 
 
 /* --- Header Area --- */
 header {
   background-color: #2C3E50;
-  /* CHANGED: Replaced beige with Midnight Blue */
   height: 35px;
   width: 100%;
   opacity: .9;
@@ -24,7 +21,6 @@ header h1.logo {
   margin: 0;
   font-size: 1.7em;
   color: #ffffff;
-  /* This was already white, which is perfect */
   text-transform: uppercase;
   float: left;
 }
@@ -44,9 +40,7 @@ header h1.logo:hover {
 div.home,
 div.about {
   background-color: #FFFFFF;
-  /* CHANGED: Replaced lavender with crisp White */
   padding: 25px 40px;
-  /* UPDATED: To give balanced space on all sides */
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -60,7 +54,6 @@ h2 {
   text-align: center;
   letter-spacing: -2px;
   color: #2C3E50;
-  /* ADDED: Made heading Midnight Blue to match header */
 }
 
 h3 {
