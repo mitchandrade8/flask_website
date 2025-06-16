@@ -1,16 +1,19 @@
+/* --- Body and Basic Font --- */
 body {
   margin: 0;
   padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #060;
+  color: #343A40;
+  /* CHANGED: Dark Gray for readable body text */
+  background-color: #F4F4F9;
+  /* ADDED: A very light gray background for the whole page */
 }
 
-/*
- * Formatting the header area
- */
 
+/* --- Header Area --- */
 header {
   background-color: #2C3E50;
+  /* CHANGED: Replaced beige with Midnight Blue */
   height: 35px;
   width: 100%;
   opacity: .9;
@@ -20,47 +23,44 @@ header {
 header h1.logo {
   margin: 0;
   font-size: 1.7em;
-  color: #fff;
+  color: #ffffff;
+  /* This was already white, which is perfect */
   text-transform: uppercase;
   float: left;
 }
 
 header h1.logo:hover {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
 }
 
-/*
- * Center the body content
- */
 
+/* --- Content Area (the box with your text) --- */
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 
-div.home {
-  /* Padding: top right bottom left*/
-  padding: 10px 30px 20px 30px;
-  background-color: #E6E6FA;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
-}
-
+div.home,
 div.about {
-  padding: 10px 30px 20px 30px;
-  background-color: #E6E6FA;
+  background-color: #FFFFFF;
+  /* CHANGED: Replaced lavender with crisp White */
+  padding: 25px 40px;
+  /* UPDATED: To give balanced space on all sides */
   -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
 
+
+/* --- Headings within the Content Area --- */
 h2 {
   font-size: 3em;
   margin-top: 40px;
   text-align: center;
   letter-spacing: -2px;
+  color: #2C3E50;
+  /* ADDED: Made heading Midnight Blue to match header */
 }
 
 h3 {
@@ -72,6 +72,8 @@ h3 {
   color: #999;
 }
 
+
+/* --- Menu Links in Header --- */
 .menu {
   float: right;
   margin-top: 8px;
@@ -81,11 +83,11 @@ h3 {
   display: inline;
 }
 
-.menu li + li {
+.menu li+li {
   margin-left: 35px;
 }
 
 .menu li a {
-  color: #444;
+  color: #FFFFFF;
   text-decoration: none;
 }
